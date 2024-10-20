@@ -1,0 +1,28 @@
+{
+    "orders": {
+      "12345": {
+        "status": "shipped",
+        "tracking_number": "ABC123",
+        "expected_delivery": "2024-10-20"
+      },
+      "67890": {
+        "status": "pending",
+        "tracking_number": null,
+        "expected_delivery": null
+      }
+    },
+    "returns_policy": "You can return items within 30 days of receipt for a full refund.",
+    "products": {
+      "product1": {
+        "name": "Wireless Headphones",
+        "price": "$99",
+        "available": true
+      },
+      "product2": {
+        "name": "Smartwatch",
+        "price": "$199",
+        "available": false
+      }
+    }
+  }
+  
